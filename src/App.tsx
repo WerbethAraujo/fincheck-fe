@@ -1,3 +1,5 @@
-export const App = () => {
-  return <h1 className="">Hello</h1>;
-};
+import { Router } from "./Router";
+
+export function App() {
+  return <Router />;
+}
